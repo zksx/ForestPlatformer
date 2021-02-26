@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Country-village_asset_pack/1_Tileset & props/crate.png" type="Texture" id=1]
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+
+[node name="crate" type="Sprite" parent="."]
+position = Vector2( 0, -6.509 )
+texture = ExtResource( 1 )
